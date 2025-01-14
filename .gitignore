@@ -1,7 +1,18 @@
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+test-results/
+playwright-report/
+playwright/.cache/
+
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ESLint cache
+.eslintcache
+/test-results
+/playwright-report
+/playwright/.cache
 .env.local
-.env.development.local
